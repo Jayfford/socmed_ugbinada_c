@@ -1,0 +1,66 @@
+body{
+    background-image: url('../backgrounds/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:"calibri";
+    margin:0px;
+}
+.navbar{
+    text-align: center;
+    line-height: 3em;
+    background-color:#009dd1;
+}
+.navbar a{
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar a:hover{
+    background-color:#97e7f5;
+    color: #caf0f8;
+}
+.navbar a:active{
+    background-color: #caf0f8;
+    color:#97e7f5;
+}
+#loginform{
+    background-color: #009dd1;
+    color: #fff;
+    width: 300px;
+    padding: 2em;
+    border-radius: 15px;
+    margin: 10vh auto;
+}
+#loginform input{
+    width:85%;
+    padding:.5em;
+    margin:.5em;
+}
+#loginform input[type='checkbox']{
+    width:10%;
+}
+#loginform input[type='submit']{
+    width:90%;
+    background-color:#97e7f5; 
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: .8em;
+}
+#loginform input[type='submit']:hover{
+    background-color: #01377d;
+    color:#fff;
+}
+#loginform input[type='submit']:active{
+    background-color: #caf0f8;
+    color:#fff;
+}
+#loginform label{
+    margin-top:1em;
+}
+#loginform select{
+    width: 70%;
+    padding: .5em;
+    margin: .8em;
+    margin-top: .2em;
+}
